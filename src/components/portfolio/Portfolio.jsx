@@ -4,6 +4,30 @@ import IMGML from '../../assets/monolithlandingss_dtop.png';
 import IMGCSS from '../../assets/cssmemgamess.png';
 import IMGBF from '../../assets/findmeabeerss_dtop.png';
 
+const projects = [
+  {
+    id: 1,
+    image: IMGBF,
+    title: 'FindMeABeer',
+    github: 'https://github.com/ThomasStrong/beer-finder',
+    demo: 'https://thomasstrong.github.io/beer-finder/',
+  },
+  {
+    id: 2,
+    image: IMGML,
+    title: 'FindMeABeer',
+    github: 'https://github.com/ThomasStrong/Monolith_Lapidary',
+    demo: 'https://thomasstrong.github.io/Monolith_Lapidary/',
+  },
+  {
+    id: 3,
+    image: IMGCSS,
+    title: 'FindMeABeer',
+    github: 'https://github.com/ThomasStrong/CSS_Memory_Game',
+    demo: 'https://thomasstrong.github.io/CSS_Memory_Game/',
+  },
+];
+
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -11,69 +35,25 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className='container __portfolio__container'>
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMGML} alt='monolith lapidary' />
-          </div>
+        {projects.map(({ id, image, title, github, demo }) => {
+          return (
+            <article key={id} className='portfolio__item'>
+              <div className='portfolio__item-image'>
+                <img src={image} alt={title} />
+              </div>
 
-          <h3>Monolith Lapidary</h3>
-          <a
-            href='https://github.com/ThomasStrong/Monolith_Lapidary'
-            className='btn'
-            target='_blank'
-          >
-            GitHub
-          </a>
-          <a
-            href='https://thomasstrong.github.io/Monolith_Lapidary/'
-            className='btn btn-primary'
-            target='_blank'
-          >
-            Live Demo
-          </a>
-        </article>
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMGBF} alt='find me a beer' />
-          </div>
-
-          <h3>FindMeABeer</h3>
-          <a
-            href='https://github.com/ThomasStrong/beer-finder'
-            className='btn'
-            target='_blank'
-          >
-            GitHub
-          </a>
-          <a
-            href='https://thomasstrong.github.io/beer-finder/'
-            className='btn btn-primary'
-            target='_blank'
-          >
-            Live Demo
-          </a>
-        </article>
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMGCSS} alt='css memory game' />
-          </div>
-
-          <h3>CSS Memory Game</h3>
-          <a
-            href='https://github.com/ThomasStrong/CSS_Memory_Game'
-            className='btn'
-            target='_blank'
-          >
-            GitHub
-          </a>
-          <a
-            href='https://thomasstrong.github.io/CSS_Memory_Game/'
-            className='btn btn-primary'
-            target='_blank'
-          >
-            Live Demo
-          </a>
-        </article>
+              <h3>{title}</h3>
+              <div className='portfolio__item-cta'>
+                <a href={github} className='btn' target='_blank'>
+                  GitHub
+                </a>
+                <a href={demo} className='btn btn-primary' target='_blank'>
+                  Live Demo
+                </a>
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
   );
