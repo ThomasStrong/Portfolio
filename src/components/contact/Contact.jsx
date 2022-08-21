@@ -52,7 +52,7 @@ const Contact = () => {
             <a href='sms:7203045826&body=message'>Send a Message</a>
           </article>
         </div>
-        {/* END OF CONTACT OPTIONS */}
+
         <form ref={form} onSubmit={sendEmail}>
           <input
             type='text'

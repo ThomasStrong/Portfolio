@@ -64,6 +64,7 @@ textarea {
   padding: 1.5rem;
   border-radius: 0.5rem;
   background-color: transparent;
+  backdrop-filter: blur(10px);
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-white);
