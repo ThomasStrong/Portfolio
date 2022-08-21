@@ -49,7 +49,7 @@ const Contact = () => {
             <AiOutlinePhone className='contact__option-icon' />
             <h4>Phone</h4>
             <h5>720.304.5826</h5>
-            {/* <a href='mailto:strongertoms@gmail.com'>Send a Message</a> */}
+            <a href='sms:7203045826&body=message'>Send a Message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
