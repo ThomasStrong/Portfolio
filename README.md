@@ -32,6 +32,7 @@ The site is a single page, with JavaScript functions created to hide certain sec
 - GitHub
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="5%" />
 - Heroku
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" alt="Heroku" width="5%" />
 
 ## Questions?
 
