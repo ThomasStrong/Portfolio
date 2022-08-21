@@ -15,14 +15,14 @@ const projects = [
   {
     id: 2,
     image: IMGML,
-    title: 'FindMeABeer',
+    title: 'Monolith Lapidary',
     github: 'https://github.com/ThomasStrong/Monolith_Lapidary',
     demo: 'https://thomasstrong.github.io/Monolith_Lapidary/',
   },
   {
     id: 3,
     image: IMGCSS,
-    title: 'FindMeABeer',
+    title: 'CSS Memory Game',
     github: 'https://github.com/ThomasStrong/CSS_Memory_Game',
     demo: 'https://thomasstrong.github.io/CSS_Memory_Game/',
   },
@@ -34,7 +34,7 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className='container __portfolio__container'>
+      <div className='container portfolio__container'>
         {projects.map(({ id, image, title, github, demo }) => {
           return (
             <article key={id} className='portfolio__item'>

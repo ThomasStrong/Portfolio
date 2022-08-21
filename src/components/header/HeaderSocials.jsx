@@ -1,19 +1,31 @@
 import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
-import { FiDribbble } from 'react-icons/fi';
+import { FaFreeCodeCamp } from 'react-icons/fa';
+import { SiExercism } from 'react-icons/si';
 
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
-      <a href='https://linkedin.com' target='_blank' rel='noreferrer'>
+      <a
+        href='https://www.linkedin.com/in/trstrong/'
+        target='_blank'
+        rel='noreferrer'
+      >
         <BsLinkedin />
       </a>
-      <a href='https://github.com' target='_blank' rel='noreferrer'>
+      <a
+        href='https://github.com/ThomasStrong'
+        target='_blank'
+        rel='noreferrer'
+      >
         <FaGithub />
       </a>
-      <a href='https://dribbble.com' target='_blank' rel='noreferrer'>
-        <FiDribbble />
+      <a href='https://www.freecodecamp.org/' target='_blank' rel='noreferrer'>
+        <FaFreeCodeCamp />
+      </a>
+      <a href='https://exercism.org/' target='_blank' rel='noreferrer'>
+        <SiExercism />
       </a>
     </div>
   );
