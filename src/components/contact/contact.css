@@ -44,12 +44,26 @@ form {
   gap: 1.2rem;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 2px solid var(--color-primary-variant);
+  -webkit-text-fill-color: var(--color-white);
+  transition: background-color 1000s ease-in-out 0s;
+}
+
 input,
 textarea {
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
-  background: transparent;
+  background-color: transparent;
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-white);
