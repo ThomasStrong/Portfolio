@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import ME from '../../assets/me.png';
 import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
+import { FaBook } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
 
 const About = () => {
@@ -22,30 +22,37 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
+              <small>8+ years Academia</small>
+              <br />
               <small>15+ years Customer Service</small>
-              <small>15 years Customer Service</small>
             </article>
 
             <article className='about__card'>
-              <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>Very happy globally!</small>
+              <FaBook className='about__icon' />
+              <h5>Education</h5>
+              <small>Code Louisville, etc. Certifications</small>
+              <br />
+              <small>B.S. Applied Geology</small>
+              <br />
+              <small>High-level Calculus</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects/Research</h5>
               <small>Published Research</small>
+              <br />
               <small>Authorship & Collaboration</small>
             </article>
           </div>
 
-          <p>
+          <p id='aboutSummary'>
             I am a passionate problem-solver, husband, and father. Adventures
             with my family are my favorite past-time. When not travelling, I can
             be found hiking, gaming with friends, or building computers. I am
             also an avid rockhound, love to sing, and have done voice-overs for
             multiple media.
+            <br />
             <br />I have been interested in code since my high school computer
             programming class. Working with Visual Basic and building my own
             small programs was the first peek into the potential of creation. My

@@ -68,6 +68,9 @@ about__me-image:hover {
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  padding: 1.2rem;
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============= */
