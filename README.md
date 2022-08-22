@@ -1,4 +1,6 @@
-# Portfolio for Thomas Strong
+# Portfolio for Thomas Strong <img align="center" src="public\favicon.ico" alt="initials icon">
+
+Life URL: https://react-portfolio-tstrong.web.app/
 
 ## Description
 
@@ -8,11 +10,14 @@ Portfolio page for Thomas Strong.
 
 - [Overview](#overview)
 - [Technologies](#technologies)
+- [Future Development](#future-development)
 - [Questions](#questions)
 
 ## Overview
 
 This site houses the portfolio of Thomas Strong and a little about his experience.
+
+This site has been deployed to the Google Cloud Platform via Firebase.
 <br></br>
 
 ## Technologies
@@ -31,6 +36,13 @@ This site houses the portfolio of Thomas Strong and a little about his experienc
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="5%" />
 - Heroku
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" alt="Heroku" width="5%" />
+- Google
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Google" width="5%" />
+
+## Future Development
+
+- Correct mobile responsiveness
+- Fix SMS link for contact option
 
 ## Questions?
 
