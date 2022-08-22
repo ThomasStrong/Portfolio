@@ -22,7 +22,8 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>25 Years Working</small>
+              <small>15+ years Customer Service</small>
+              <small>15 years Customer Service</small>
             </article>
 
             <article className='about__card'>
@@ -33,14 +34,28 @@ const About = () => {
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
-              <h5>Projects</h5>
-              <small>5+ Completed Projects</small>
+              <h5>Projects/Research</h5>
+              <small>Published Research</small>
+              <small>Authorship & Collaboration</small>
             </article>
           </div>
 
           <p>
-            The devil went down to Georgia, he was lookin' for a soul to steal.
-            He was in a bind 'cause he was way behind and lookin to make a deal.
+            I am a passionate problem-solver, husband, and father. Adventures
+            with my family are my favorite past-time. When not travelling, I can
+            be found hiking, gaming with friends, or building computers. I am
+            also an avid rockhound, love to sing, and have done voice-overs for
+            multiple media.
+            <br />I have been interested in code since my high school computer
+            programming class. Working with Visual Basic and building my own
+            small programs was the first peek into the potential of creation. My
+            life then became a series of if-then statements - I saw them
+            everywhere. Working with POS systems in restaurants, using software
+            to determine elemental composition of unknown materials through
+            spectral analysis, creating a spreadsheet to interpolate draw
+            distances for contour mapping, building complex maps and data
+            visualizations with GIS, etc. I am excited to pursue a development
+            career while continuing to learn and grow my coding skills.
           </p>
 
           <a href='#contact' className='btn btn-primary'>

@@ -4,6 +4,7 @@ import { MdOutlineEmail } from 'react-icons/md';
 import { AiOutlinePhone } from 'react-icons/ai';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { TbArrowBigRightLines } from 'react-icons/tb';
 
 const Contact = () => {
   const form = useRef();
@@ -51,11 +52,18 @@ const Contact = () => {
             <h5>720.304.5826</h5>
             <a href='sms:7203045826&body=message'>Send a Message</a>
           </article>
+          <article className='contact__option'>
+            <TbArrowBigRightLines className='contact__option-icon' />
+            <h4>Send a Quick Message</h4>
+            <h5>Fill out the form</h5>
+            <a href='#nameInput'>Begin</a>
+          </article>
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
           <input
             type='text'
+            id='nameInput'
             name='name'
             placeholder='Your Full Name'
             required
