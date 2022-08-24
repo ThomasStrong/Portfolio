@@ -1,7 +1,7 @@
 .about__container {
   display: grid;
   grid-template-columns: 35% 50%;
-  gap: 15%;
+  gap: 2.5rem;
 }
 
 .about__me {
@@ -94,10 +94,10 @@ about__me-image:hover {
 @media screen and (max-width: 600px) {
   .about__me {
     width: 65%;
-    margin: 0 auto 3rem;
+    margin: 0 auto;
   }
 
-  .aobut__cards {
+  .about__cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
