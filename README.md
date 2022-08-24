@@ -1,6 +1,6 @@
 # Portfolio for Thomas Strong <img align="center" src="public\favicon.ico" alt="initials icon">
 
-Life URL: https://react-portfolio-tstrong.web.app/
+Live URL: https://react-portfolio-tstrong.web.app/
 
 ## Description
 
@@ -15,9 +15,8 @@ Portfolio page for Thomas Strong.
 
 ## Overview
 
-This site houses the portfolio of Thomas Strong and a little about his experience.
+This site houses the portfolio of Thomas Strong and a little about his experience and has been deployed to the Google Cloud Platform via Firebase.
 
-This site has been deployed to the Google Cloud Platform via Firebase.
 <br></br>
 
 ## Technologies
