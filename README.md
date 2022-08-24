@@ -41,7 +41,7 @@ This site has been deployed to the Google Cloud Platform via Firebase.
 
 ## Future Development
 
-- Fix SMS link for contact option
+- Keep updating projects, experience, and resume.
 
 ## Questions?
 
