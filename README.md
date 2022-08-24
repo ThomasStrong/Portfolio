@@ -41,7 +41,6 @@ This site has been deployed to the Google Cloud Platform via Firebase.
 
 ## Future Development
 
-- Correct mobile responsiveness
 - Fix SMS link for contact option
 
 ## Questions?

@@ -22,27 +22,27 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>8+ years Academia</small>
+              <small>&#10036; 8+ years Academia</small>
               <br />
-              <small>15+ years Customer Service</small>
+              <small>&#10036; 15+ years Customer Service</small>
             </article>
 
             <article className='about__card'>
               <FaBook className='about__icon' />
               <h5>Education</h5>
-              <small>Code Louisville, etc. Certifications</small>
+              <small>&#9999; Code Louisville, etc. Certifications</small>
               <br />
-              <small>B.S. Applied Geology</small>
+              <small>&#9999; B.S. Applied Geology</small>
               <br />
-              <small>High-level Calculus</small>
+              <small>&#9999; High-level Calculus</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects/Research</h5>
-              <small>Published Research</small>
+              <small>&#9745; Published Research</small>
               <br />
-              <small>Authorship & Collaboration</small>
+              <small>&#9745; Authorship & Collaboration</small>
             </article>
           </div>
 

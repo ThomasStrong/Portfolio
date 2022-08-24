@@ -86,4 +86,10 @@ header {
   .scroll__down {
     display: none;
   }
+
+  .me {
+    left: 0;
+    padding: 0;
+    width: 100%;
+  }
 }
