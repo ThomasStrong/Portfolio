@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
+  max-width: fit-content;
 }
 
 .portfolio__item {
@@ -19,7 +20,7 @@
 
 .portfolio__item-image {
   border-radius: 1.5rem;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .portfolio__item h3 {
